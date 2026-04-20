@@ -34,7 +34,8 @@ HTML_TEMPLATE = """<!DOCTYPE html>
             display: flex;
             align-items: center;
             justify-content: center;
-            overflow: hidden;
+            overflow-y: auto;
+            padding: 20px 0;
         }}
 
         /* Background grid */
